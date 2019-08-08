@@ -23,16 +23,16 @@ namespace _0000A1Password
             c3 = char.ToUpper(c3);
             c4 = char.ToUpper(c4);
 
-            if (c1 == 'P' || c1 == 'R' || c1 == 'O' || c1 == 'G')
+            if (c1 == 'P' || c2 == 'P' || c3 == 'P' || c4 == 'P')
                 i++;
 
-            if (c2 == 'P' || c2 == 'R' || c2 == 'O' || c2 == 'G')
+            if (c1 == 'R' || c2 == 'R' || c3 == 'R' || c4 == 'R')
                 i++;
 
-            if (c3 == 'P' || c3 == 'R' || c3 == 'O' || c3 == 'G')
+            if (c1 == 'O' || c2 == 'O' || c3 == 'O' || c4 == 'O')
                 i++;
 
-            if (c4 == 'P' || c4 == 'R' || c4 == 'O' || c4 == 'G')
+            if (c1 == 'G' || c2 == 'G' || c3 == 'G' || c4 == 'G')
                 i++;
 
             if (i == 4)
